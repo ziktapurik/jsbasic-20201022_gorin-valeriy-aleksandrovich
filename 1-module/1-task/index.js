@@ -10,7 +10,6 @@ function factorial(n) {
         return;
     }
     
-    
     let total=1;
     while (n>1) {
         total *=n;
