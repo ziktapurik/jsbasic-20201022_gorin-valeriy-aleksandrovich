@@ -7,7 +7,7 @@
 function truncate(str, maxlength) {
     if ( typeof(maxlength) != "number" || maxlength<1 ) { //если ввели фигню - результат не выводим
         console.log("Введите корректное ограничение длины строки");
-        return;
+        //return;
     }
     
     if ( str.length > maxlength ) { //в противном случае строка не нуждается в обрезании
