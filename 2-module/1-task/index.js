@@ -4,5 +4,11 @@
  * @returns {Number}
  */
 function sumSalary(salaries) {
-  // ваш код...
+    let total = 0; //сюда мудем записывать зарплату
+    for (let key in salaries) {
+        if ( typeof(salaries[key]) == "number" ) { //если это число, то точно зарплата
+           total +=  salaries[key];
+        }
+    }
+    return total;
 }
