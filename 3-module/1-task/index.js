@@ -3,5 +3,6 @@
  * @returns {string[]}  объект
  */
 function namify(users) {
-  // ваш код...
+    let names = users.map(userObj => userObj.name); // помещаем в names значения всех name
+    return names;
 }
