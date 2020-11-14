@@ -23,7 +23,7 @@ function highlight(table) {
     
     for (let bodies of table.tBodies) {
        for (let tr of bodies.rows) {
-           console.log(tr.cells[status]);
+          
            
            //добавляем класс available/unavailable/hidden
            if (tr.cells[status].getAttribute('data-available') == 'true') {
@@ -47,7 +47,7 @@ function highlight(table) {
            }
         
         }
-        console.log(bodies);
+        
     }
     
 }
